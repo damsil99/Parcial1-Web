@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.title h2 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px #a3a5ae;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+.card p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+.card-img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.centered-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-border-top {
+    border-top: 2px solid #ea5353;
+}
+
+.orange-border-top {
+    border-top: 2px solid #fc9b1d;
+}
+
+.blue-border-top {
+    border-top: 2px solid #4a9dfc;
+}
+
+.supervisor-bg {
+    background-color: #fff;
+    border-top: 2px solid #62dada;
+}
+
+.top-center, .bottom-center {
+    align-self: center;
+}
+
+.left-center, .right-center {
+    align-self: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 12px;
+   
+}
